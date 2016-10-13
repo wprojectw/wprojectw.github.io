@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Layout</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>William Wang</h1>
+    <h3> https://nz.linkedin.com/in/willice | Auckland, New Zealand
++64 21 156 5540 | Email: williamwang913@gmail.com</h3>
+
+  </header>
+  <div class="wrapper">
+    <div class="container">
+      <h1>Heading</h1>
+      <h2>Blockquote</h2>
+
+      <blockquote cite="http://yourdoman.com">
+      	An example of some quote text</blockquote>
+
+      <h2>Abbreviations</h2>
+      <abbr title="HyperText Mrkup Language">HTML</abbr>
+
+      <h2>Horinzontal Rule</h2>
+      <hr> <!-- added line -->
+     
+     <h2>Bespoke Bullet Points</h2>
+     	<ul class="no-bullet">
+     		<li><span class="bullet"></span>item</li>
+     		<li><span class="bullet"></span>item</li>
+     		<li><span class="bullet"></span>item</li>
+     	</ul>
+
+
+
+
+      <h3>Heading</h3>
+      <h4>Heading</h4>
+      <h5>Heading</h5>
+      <h6>Heading</h6>
+      <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+      <h2>Heading</h2>
+      <p class="text-justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam sit amet elit vitae arcu interdum ullamcorper. Nullam ultrices, nisi quis scelerisque convallis, augue neque tempor enim, et mattis justo nibh eu elit.</p>
+      <p>Quisque ultrices gravida pede. Mauris accumsan vulputate tellus. Phasellus condimentum bibendum dolor. Mauris sed ipsum. Phasellus in diam. Nam sapien ligula, consectetuer id, hendrerit in, cursus sed, leo. Nam tincidunt rhoncus urna. Aliquam id massa ut nibh bibendum imperdiet. Curabitur neque mauris, porta vel, lacinia quis, placerat ultrices, orci.</p>
+    </div>
+    <!-- .container-->
+  </div>
+  <!-- .wrapper-->
+  <footer>
+    <small>Powered by NGINX</small>
+  </footer>
+</body>
+
+</html>

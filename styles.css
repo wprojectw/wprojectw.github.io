@@ -1,0 +1,126 @@
+body {
+  background: #eeeeee;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.5; /* 1.5 * 16 = 24 (24 pixel baseline) */
+  margin: 0;
+  text-align: justify;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+/* typography
+------------------------------------------*/
+
+h1,h2,h3,h4,h5{
+  font-family: 'Maven Pro', sans-serif;
+}
+
+p {
+  margin:1.5em 0; /* to create asymetric headings divide into ration of 1 third on top & 2 third on bottom */
+}
+
+h1{
+  font-size:1.5em; /* 1.5 * 16 = 24 */
+  line-height:1; /* 24 / 24 */
+  margin:1em 0;
+}
+h2{
+  font-size:1.375em; /* 1.375 * 16 = 22 */
+  line-height:1.0909; /* 24 / 22 */
+  margin:1.0909em 0;
+}
+h3{
+  font-size:1.25em; /* 1.25 * 16 = 20 */
+  line-height:1.2; /* 24 / 22 */
+  margin:1.2em 0;
+}
+h4{
+  font-size:1.125em; /* 1.125 * 16 = 18 */
+  line-height: 1.3333; /* 24 / 20 */
+  margin:1.3333em 0;
+}
+h5{
+  font-size:1.0em; /* 1.0 * 16 = 16 */
+  line-height: 1.5em;  /* 24 / 16 */
+  margin: 1.5em 0;
+}
+h6{
+  font-size:1.0em; /* 1.0 * 16 = 16 */
+  line-height: 1.5em; /* 24 / 16 */
+  margin: 1.5em 0;
+}
+
+blockquote {
+  border-left: 5px solid navy;
+  padding-left:1.5em;
+
+  margin: 0 ;
+}
+
+hr {
+  border:2px solid navy;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.no-bullet {
+  list-style:none;
+  padding-left: 5 em;
+}
+
+.bullet {
+  height:16px;
+  width:16px;
+  background:url(images/bullet2.png);
+  display: inline-block;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
